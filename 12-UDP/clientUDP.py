@@ -7,7 +7,7 @@ clientSocket.sendto(bytes(sentence,"utf-8"),(serverName, serverPort))
 filecontents,serverAddress = clientSocket.recvfrom(2048)
 print ('\nReply from Server:\n')
 print (filecontents.decode("utf-8"))
-# for i in filecontents:
-# print(str(i), end = '')
+#for i in filecontents:
+ #print(str(i), end = '')
 clientSocket.close()
 clientSocket.close()
