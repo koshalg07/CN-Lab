@@ -26,7 +26,7 @@ int main()
         if(filled <= output_rate)
             filled = 0;
         else {
-            filled = filled + output_rate;
+            filled = filled - output_rate;
         }
         cout<<"\n amount of bucket fillled"<<filled;
         cout<<"\ndo you want to enter more? "<<endl;

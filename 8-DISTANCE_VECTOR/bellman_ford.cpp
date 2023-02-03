@@ -6,9 +6,9 @@ int bellman_ford(int G[20][20], int V, int E, int edge[20][2]){
     int i,u,v,k,distance[20],parent[20],S,flag=1;
     for(i=0;i<V;i++)
         distance[i] = 1000 , parent[i] = -1 ;
-        cout<<("Enter source: ");
-        cin>>S;
-        distance[S-1]=0 ;
+    cout<<("Enter source: ");
+    cin>>S;
+    distance[S-1]=0 ;
     for(i=0;i<V-1;i++)
     {
         for(k=0;k<E;k++)
